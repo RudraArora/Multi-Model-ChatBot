@@ -11,7 +11,7 @@ function ChatBot() {
     if (!message.trim()) return;
     setHistory(h => [...h, { from: 'user', text: message }]);
     try {
-      const data  = await axios.post('http://localhost:3000/getres', { message, model });
+      const data  = await axios.post('https://multi-model-chatbot.onrender.com/getres', { message, model });
       setHistory(h => [...h, { from: 'ai', text: data.data.aiText }]);
     } catch {
       setHistory(h => [...h, { from: 'ai', text: 'Error: could not reach server.' }]);
