@@ -2,12 +2,11 @@
 
 const { GoogleGenAI } = require('@google/genai')
 const CHAT = require('../schema/chatModel')
-const {OpenAI} = require('openai');
+const OpenAI = require('openai');
 const mistralCHAT = require('../schema/mistralAImodel');
 const cypherCHAT = require('../schema/cypherAImodel');
 require('dotenv').config()
 
-console.log(process.env.OPENROUTER_API_KEY)
 const ai = new GoogleGenAI({})
 const client = new OpenAI({
     apiKey: process.env.OPENROUTER_API_KEY,
