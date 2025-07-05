@@ -2,6 +2,10 @@
 
 ### A full-stack conversational AI chatbot application supporting multiple language models such as MistralAI and CypherAI. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this project enables real-time interaction with different AI engines via a unified frontend interface.
 
+## 🔗 Live Demo
+
+- Try it out: https://multi-model-chatbot.netlify.app/
+
 ## ✨ Features
 
 - 🧠 Multi-Model Chat Support: Integrates MistralAI and CypherAI models.
