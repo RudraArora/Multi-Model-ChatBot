@@ -1,6 +1,6 @@
 # 🤖 Multi-Model ChatBot
 
-### A full-stack conversational AI chatbot application supporting multiple language models such as MistralAI and CypherAI. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this project enables real-time interaction with different AI engines via a unified frontend interface.
+### A full-stack conversational AI chatbot application supporting multiple language models such as Gemini, MistralAI and CypherAI. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this project enables real-time interaction with different AI engines via a unified frontend interface.
 
 ## 🔗 Live Demo
 
